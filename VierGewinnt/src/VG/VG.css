@@ -32,6 +32,10 @@
 }
 .gbox{
 	-fx-background-color: blue;
+	-fx-padding: 10px;
+}
+.C{
+	-fx-padding: 3px;
 }
 .bbox{
 	-fx-background-color: blue;
