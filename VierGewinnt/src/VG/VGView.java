@@ -55,6 +55,7 @@ public class VGView {
 		for(int i = 0; i < Z.getValue(); i++) {
 			for(int j = 0; j < S.getValue(); j++) {
 				g.add(circle[i][j], j, i);
+				circle[i][j].getStyleClass().add("C");
 				System.out.println(circle[i][j].getEID());
 			}
 		}	
